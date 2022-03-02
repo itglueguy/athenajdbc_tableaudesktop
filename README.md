@@ -26,14 +26,7 @@ client_secret=xyz
 
 It can than be converted to in Tableau:
 
-AwsRegion=us-east1
-S3OutputLocation=s3://test;AwsCredentialsProviderClass=com.simba.athena.iamsupport.plugin.AzureCredentialsProvider
-UID=jsmith@acme.com
-PWD=simba12345
-tenant_id=xyz
-client_id=xyz
-client_secret=xyz
-
+- Consult the file above
 
 ### What is an Example of the Browser Azure AD Provider?
 
@@ -49,13 +42,7 @@ client_id=xyz;client_secret=xyz
 
 It can than be converted to in Tableau:
 
-AwsRegion=us-east1
-S3OutputLocation=s3://test
-AwsCredentialsProviderClass=com.simba.athena.iamsupport.plugin.BrowserAzureCredentialsProvider
-UID=jsmith@acme.com
-PWD=simba12345;tenant_id=xyz
-client_id=xyz
-client_secret=xyz
+- Consult the file above
 
 
 ## Reference
