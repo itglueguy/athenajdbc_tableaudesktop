@@ -4,11 +4,11 @@
 - It can be inferred from the Athena Simbda JDBC Documentation is that if you simply make sure all keypairs have their own lines and no delimiters (";") you can reasonable convert the files accordingly
 
 ## FAQ
-### Where are athena.properties files normally located?
+### Where are athena.properties files normally located for Tableau Desktop?
 - Windows - Under the My Tableau Repository/Datasourcfes
 
 ### What Should be included in order to use Environmental Variables in the athena.properties File?
-- It will allow you to use the Key, Secret Key, and Token
+- It will allow you to use the Key, Secret Key, and Token vales
 - The file contents is simply: AwsCredentialsProviderClass=com.simba.athena.amazonaws.auth.DefaultAWSCredentialsProviderChain
 
 ### What is Example of the Azure AD Provider?
@@ -33,8 +33,6 @@ PWD=simba12345
 tenant_id=xyz
 client_id=xyz
 client_secret=xyz
-
-
 
 
 ### What is an Example of the Browser Azure AD Provider?
